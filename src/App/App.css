@@ -1,0 +1,7 @@
+.App_body{
+  display: flex;
+}
+.App{
+  background-color: #f1f2f5;
+  height: 100%;
+}

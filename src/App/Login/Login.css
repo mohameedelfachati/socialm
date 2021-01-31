@@ -1,0 +1,33 @@
+.login{
+    width: 100%;
+    padding: 150px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.login > .changeButton{
+    margin: 20px;
+    color: black;
+    background-color: lightgreen;
+    display: flex;
+    align-self: center;
+    cursor: pointer;
+    
+}
+.login > .changeButton:hover{
+    background-color: green;
+
+}
+.login__page{
+    border: 15px solid rgb(144, 143, 133);
+    border-radius: 5px;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.87);
+    margin-bottom: 100px;
+}
+.signup__page{
+    border: 15px solid rgb(119, 116, 101);
+    border-radius: 5px;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.87);
+    margin-bottom: 100px;
+}
+
